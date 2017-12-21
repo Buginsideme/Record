@@ -1,4 +1,4 @@
-/sorry i'll traslate it later
+//sorry i'll traslate it later
 /*Si progettino tre funzioni:
 1) leggi_mat, che riceve in ingresso il nome di un file, e legge da quel file i
 riempimenti di riga e colonna ed i valori di una matrice di numeri reali;
