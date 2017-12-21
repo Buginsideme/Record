@@ -1,2 +1,2 @@
 # Record
-a few exercise whit record and other stuff
+A few exercise whit record and other stuff
