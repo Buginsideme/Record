@@ -95,16 +95,21 @@ void med_pos_mat(int& rig, int& col, matrice& mat, float& somma, float& media, b
     positivi=false;
 }
 void calc_mag(int& rig, int& col, matrice& mat, float& massimo, struttura& cordinate){
+  bool trovato=false;
+  int i, j;
   massimo=mat[0][0];
-  for(int i=0; i<rig; i++){
-    for(int j=0; j<col; j++){
+  for(i=0; i<rig; i++){
+    j=0;
+    trovato=false;
+    while(j<col && !trovato)
       if(mat[i][j]>massimo){
         massimo=mat[i][j];
         cordinate.magg=massimo;
         cordinate.riga=i+1;
         cordinate.colonna=j+1;
+        trovato=true;
       }
-      break;
-    }
+      else
+        j++;
   }
 }
