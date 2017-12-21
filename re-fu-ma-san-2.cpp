@@ -1,5 +1,5 @@
 /*Si progettino tre funzioni:
-1) leggi_mat, che legge da file i riempimenti ed i valori di una matrice;
+1) leggi_mat, che legge i riempimenti ed i valori di una matrice;
 2) crea_vett, che riceve in ingresso rig, col ed M e costruisce due vettori,
 V_Ind e V_Rig. Il primo vettore (V_Ind) dovrà contenere un elemento per ogni
 riga della matrice che ha almeno un valore negativo. Il valore di tale elemento
