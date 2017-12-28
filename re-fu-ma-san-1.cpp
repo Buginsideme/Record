@@ -2,7 +2,7 @@
 /*Si progettino tre funzioni:
 1) leggi_mat, che legge i riempimenti di riga e colonna ed i valori di una matrice di numeri reali;
 2) med_pos_mat, che riceve in ingresso una matrice M di numeri reali e
-restituisce come parametro di di uscita la media dei soli elementi positivi di M.
+restituisce come parametro di uscita la media dei soli elementi positivi di M.
 La funzione dovrà anche restituire come valore di ritorno un valore booleano,
 che deve essere pari a false qualora non vi siano in M elementi strettamente
 maggiori di 0 (zero), e pari a true altrimenti;
